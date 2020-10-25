@@ -1,7 +1,7 @@
-name: "Dr. Marco Aurelio  Tagle"
+name: "Dr. Marco Aurelio Tagle"
 output_dir: "."
 navbar:
-  title: "Dr. Marco Gzz. Tagle"
+  title: "Dr. Marco A. González Tagle"
   left:
     - text: "Publications"
       href: Publication.html

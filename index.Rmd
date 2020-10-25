@@ -1,6 +1,6 @@
 ---
 title: " "
-pagetitle: "Dr. Marco Aurelio González Tagle"
+pagetitle: "Dr. Marco González Tagle"
 ---
 
 
@@ -15,7 +15,7 @@ My interest is the documentation of forest fire regime in pine-oak forests using
 I work at the [faculty of Forestry Sciences](http://www.fcf.uanl.mx/) in the Department of Silviculture. 
 
 
-I graduated from the University of Göttingen in Germany with a __Dr. forest__ degree in 2005. 
+I graduated from the University of Göttingen in Germany with a Doctor of Forestry Sciences (__Dr. forest.__) degree in 2005. 
 
 I am an avid [R enthusiast](https://rpubs.com/mgtagle-73) and a [Mendeley advisor](https://www.mendeley.com/profiles/marco-aurelio-gonzalez-tagle/). 
 
