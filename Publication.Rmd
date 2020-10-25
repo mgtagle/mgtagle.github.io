@@ -1,14 +1,16 @@
 ---
 title: " "
-pagetitle: "Dr. Marco González Tagle"
+pagetitle: "Dr. Marco Aurelio González Tagle"
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
 
-<img src="images/Magt.png" style="width:30%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/Magt.png" style="width:30%; border:0px solid; margin-right: 20px" align="left">
 
 # Publications
-A full list of my publications is available on [Google scholar](https://scholar.google.com/citations?user=LExTRNkAAAAJ&hl=es).
+A full list of my publications are available on:
+[Google scholar](https://scholar.google.com/citations?user=LExTRNkAAAAJ&hl=es) and
+[Mendeley profile](https://www.mendeley.com/profiles/marco-aurelio-gonzalez-tagle/).
 
-My dissertation research, under the advisement of Prof. Dr. Burkhard Müller-Using and  Prof. Dr. Klaus von Gadow at the Georg August Universität Göttingen, focused on fire history in Nuevo León, Mexico [Dissertation at the German National Library](https://d-nb.info/977068498/34) or [E-diss Uni Göttingen](https://ediss.uni-goettingen.de/bitstream/handle/11858/00-1735-0000-0006-B169-5/gonzalez_tagle.pdf?sequence=1). 
+My dissertation research, under the advisement of Prof. Dr. Burkhard Müller-Using and  Prof. Dr. Klaus von Gadow at the Georg August Universität Göttingen, focused on fire history in Nuevo León, Mexico. A copy of my dissertation can be found at the [German National Library](https://d-nb.info/977068498/34) or [E-diss Uni Göttingen](https://ediss.uni-goettingen.de/bitstream/handle/11858/00-1735-0000-0006-B169-5/gonzalez_tagle.pdf?sequence=1). 
