@@ -1,0 +1,19 @@
+name: "Dr. Marco Aurelio  Tagle"
+output_dir: "."
+navbar:
+  title: "Dr. Marco Gzz. Tagle"
+  left:
+    - text: "Publications"
+      href: Publication.html
+
+    
+      
+  right:
+    - icon: fa-github fa-lg
+      href: http://github.com/mgtagle
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/SilviculturaFCF
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
