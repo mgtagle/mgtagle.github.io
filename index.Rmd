@@ -1,0 +1,23 @@
+---
+title: " "
+pagetitle: "Dr. Marco Aurelio González Tagle"
+---
+
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<img src="images/Marco_Suiza.jpg" style="width:45%; border:10px solid; margin-right: 20px" align="left">
+
+# Research interest
+My interest is the documentation of forest fire regime in pine-oak forests using dendrochronological analysis, as well the relationship between fire and climate. Besides, I started a tree-ring research along the Cordilleran in northeast Mexico.
+
+
+I work at the [faculty of Forestry Sciences](http://www.fcf.uanl.mx/) in the Department of Silviculture. 
+
+
+I graduated from the University of Göttingen in Germany with a __Dr. forest__ degree in 2005. 
+
+I am an avid [R enthusiast](https://rpubs.com/mgtagle-73) and a [Mendeley advisor](https://www.mendeley.com/profiles/marco-aurelio-gonzalez-tagle/). 
+
+My full CV is available [here]().
+
