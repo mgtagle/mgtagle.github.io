@@ -8,7 +8,7 @@ pagetitle: "Dr. Marco Aurelio González Tagle"
 
 <img src="images/Magt.png" style="width:30%; border:0px solid; margin-right: 20px" align="left">
 
-# Publications
+# Publications `r knitr::asis_output("\U1F4C1")` 
 A full list of my publications are available on:
 [Google scholar](https://scholar.google.com/citations?user=LExTRNkAAAAJ&hl=es) and
 [Mendeley profile](https://www.mendeley.com/profiles/marco-aurelio-gonzalez-tagle/).

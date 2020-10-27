@@ -13,6 +13,8 @@ navbar:
       href: http://github.com/mgtagle
     - icon: fa-twitter fa-lg
       href: https://twitter.com/SilviculturaFCF
+    - icon: fa-address-card-o fa-lg
+      href: mailto:marco.gonzaleztg@uanl.edu.mx
 output:
   html_document:
     theme: paper

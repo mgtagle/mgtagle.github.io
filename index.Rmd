@@ -14,8 +14,8 @@ My interest is the documentation of forest fire regime in pine-oak forests using
 
 I work at the [faculty of Forestry Sciences](http://www.fcf.uanl.mx/) in the Department of Silviculture. 
 
-
-I graduated from the University of Göttingen in Germany at the [Faculty of Forest Sciences and Forest Ecology](https://uni-goettingen.de/en/19852.html) with a Doctor of Forestry Sciences (__Dr. forest.__) degree in 2005. 
+ 
+`r knitr::asis_output("\U1F393")` I graduated from the University of Göttingen in Germany at the [Faculty of Forest Sciences and Forest Ecology](https://uni-goettingen.de/en/19852.html) with a Doctor of Forestry Sciences (__Dr. forest.__) degree in 2005. 
 
 My main three subject examinations  (Rigorosum) were: __Silviculture__, __Forest Growth__ and __Bioclimatologie__.
 
