@@ -15,6 +15,10 @@ navbar:
       href: https://twitter.com/SilviculturaFCF
     - icon: fa-address-card-o fa-lg
       href: mailto:marco.gonzaleztg@uanl.edu.mx
+    - icon: fa-skype fa-lg  
+      href: https://join.skype.com/invite/rK5AoHwZucnI
+    - icon: fa-university fa-lg
+      href: https://www.uanl.mx/investigadores/marco-aurelio-gonzalez-tagle/
 output:
   html_document:
     theme: paper
