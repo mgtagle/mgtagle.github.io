@@ -51,9 +51,15 @@ Jiménez Pérez, J., Alanís Rodríguez, E., Ruiz González, J. L., __González 
 
 Jiménez-Pérez, Javier, Alanís-Rodríguez, Eduardo, Aguirre-Calderón, Oscar, Pando-Moreno, Marisela, & __González-Tagle, M.A.__ (2009). Análisis sobre el efecto del uso del suelo en la diversidad estructural del matorral espinoso tamaulipeco. Madera y bosques, 15(3), 5-20. [Download](http://www.scielo.org.mx/pdf/mb/v15n3/v15n3a1.pdf).
 
+## 2008
+
+__González Tagle, M. A.__, Schwendenmann, L., Jiménez Pérez, J., & Schulz, R. (2008). Forest structure and woody plant species composition along a fire chronosequence in mixed pine–oak forest in the Sierra Madre Oriental, Northeast Mexico. Forest Ecology and Management, 256(1–2), 161–167. [https://doi.org/10.1016/j.foreco.2008.04.021](https://doi.org/10.1016/j.foreco.2008.04.021).
+
+Alanís-Rodríguez, E., Jiménez-Pérez, J., Espinoza-Vizcarra, D., Jurado-Ybarra, E., Aguirre-Calderón, Oscar A., & __González-Tagle, Marco A.__ (2008). Evaluación del estrato arbóreo en un área restaurada post-incendio en el parque ecológico Chipinque, México. Revista Chapingo serie ciencias forestales y del ambiente, 14(2), 113-118. [Download](http://www.scielo.org.mx/pdf/rcscfa/v14n2/v14n2a6.pdf).
+
 ## 2007
 
-__González Tagle, M. A.__, Schwendenmann, L., Jiménez Pérez, J., & Himmelsbach, W. (2007). Reconstrucción del historial de incendios y estructura forestal en bosques mixtos de pino-encino en la Sierra Madre Oriental Reconstruction of fire history and forest structure in mixed pine-oak forest in the Sierra Madre Oriental. Madera y Bosques, 13(02), 51–63. 
+__González Tagle, M. A.__, Schwendenmann, L., Jiménez Pérez, J., & Himmelsbach, W. (2007). Reconstrucción del historial de incendios y estructura forestal en bosques mixtos de pino-encino en la Sierra Madre Oriental Reconstruction of fire history and forest structure in mixed pine-oak forest in the Sierra Madre Oriental. Madera y Bosques, 13(02), 51–63. [Download](https://dialnet.unirioja.es/descarga/articulo/6618115.pdf).
 
 
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmgtagle.github.io%2FPublication.html&count_bg=%2379C83D&title_bg=%23555555&icon=opensuse.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
