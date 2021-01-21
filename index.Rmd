@@ -9,10 +9,10 @@ pagetitle: "Dr. Marco Aurelio González Tagle"
 <img src="images/Marco_Suiza.jpg" style="width:45%; border:5px solid; margin-right: 20px" align="left">
 
 # Research interest
-My interest is the documentation of forest fire regime in pine-oak forests using dendrochronological analysis, as well the relationship between fire and climate. Besides, I started a tree-ring research along the Cordilleran in northeast Mexico.
+My interest is the documentation of forest fire regime in pine-oak forests using dendrochronological analysis, as well the relationship between fire and climate. Besides, I am head of the __Laboratorio de Dendrocronología__ and started a tree-ring research along the Cordilleran in northeast Mexico.
 
 
-I work at the [Faculty of Forestry Sciences](http://www.fcf.uanl.mx/) in the Department of Silviculture. 
+I work at the [Faculty of Forestry Sciences](http://www.fcf.uanl.mx/) in the Department of Silviculture at the [Universidad Autonoma de Nuevo Leon](www.uanl.mx). 
 
  
 `r knitr::asis_output("\U1F393")` I graduated from the University of Göttingen in Germany at the [Faculty of Forest Sciences and Forest Ecology](https://uni-goettingen.de/en/19852.html) with a Doctor of Forestry Sciences (__Dr. forest.__) degree in 2005. 
@@ -21,7 +21,7 @@ My main three subject examinations  (Rigorosum) were: __Silviculture__, __Forest
 
 I am an avid [R enthusiast](https://rpubs.com/mgtagle-73) and a [Mendeley advisor](https://www.mendeley.com/profiles/marco-aurelio-gonzalez-tagle/).
 
-My full CV is available [here]().
+My full CV is available [here](soon).
 
 
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmgtagle.github.io%2Findex.html&count_bg=%2379C83D&title_bg=%23555555&icon=gumtree.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
