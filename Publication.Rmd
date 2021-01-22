@@ -15,7 +15,7 @@ A full list of my publications are available on:
 
 My dissertation research, under the advisement of Prof. Dr. Burkhard Müller-Using and  Prof. Dr. Klaus von Gadow at the Georg August Universität Göttingen, focused on forest fire history in Nuevo León, Mexico. A copy of my dissertation can be found at the [German National Library](https://d-nb.info/977068498/34) or [E-diss Uni Göttingen](https://ediss.uni-goettingen.de/bitstream/handle/11858/00-1735-0000-0006-B169-5/gonzalez_tagle.pdf?sequence=1). \vspace[1cm]
 
-
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmgtagle.github.io%2FPublication.html&count_bg=%2379C83D&title_bg=%23555555&icon=opensuse.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 
 ## 2021
 
@@ -84,9 +84,30 @@ Graciano-Ávila, G.; Alanís-Rodríguez, E., Aguirre-Calderón, O.A.,  __Gonzál
 
 Pequeño-Ledezma, M. A., Alanís-Rodríguez, E., Jiménez-Pérez, J., Aguirre-Calderón, O. A., __González-Tagle, M. A.__ & Molina-Guerra, V. M. (2017).  Análisis  estructural  de  dos  áreas  del  matorral  espinoso  tamaulipeco del noreste de México. Madera y Bosques, 23(1), 121-132. [https://doi.org/10.21829/myb.2017.2311125](https://doi.org/10.21829/myb.2017.2311125).
 
+
+## 2016
+
+Sígala Rodríguez, José Á, __González Tagle, Marco A__, Prieto Ruíz, José Á, Basave Villalobos, Erickson, & Jiménez Pérez, Javier. (2016). Allometric relations for predicting biomass in _Pinus pseudostrobus_ seedlings grown under different production systems at nursery. Bosque (Valdivia), 37(2), 369-378. [https://dx.doi.org/10.4067/S0717-92002016000200015](https://dx.doi.org/10.4067/S0717-92002016000200015).
+
+Rubio Camacho, E., __González Tagle, M.A.__, Benavides Solorio, J., Chávez Durán, A., & Xelhuantzi Carmona, J. (2017). Relación entre necromasa,composición de especies leñosas y posibles implicaciones del cambio climático en bosques templados. Revista Mexicana De Ciencias Agrícolas, (13), 2601-2614. [https://doi.org/10.29312/remexca.v0i13.486](https://doi.org/10.29312/remexca.v0i13.486).
+
+## 2015
+
+Rubio-Camacho, E. A., __González-Tagle, M. A.__, Alanís-Rodríguez, E., Chávez-Durán, Á. A., & Aguirre-Calderón, O. A. (2015). Analysis of the structure and diameter distribution in temperate forests under the perspective of the potential fire regime. Revista Chapingo Serie Ciencias Forestales y del Ambiente, 21(3), 281-294. [https://doi.org/10.5154/r.rchscfa.2014.10.053](https://doi.org/10.5154/r.rchscfa.2014.10.053).
+
+Sígala Rodríguez, J., __González Tagle, M.A__, & Prieto Ruiz, J. (2015). Supervivencia en plantaciones de _Pinus pseudostrobus_ Lindl. en función del sistema de producción y preacondicionamiento en vivero. Revista Mexicana De Ciencias Forestales, 6(30), 20-31. [https://doi.org/https://doi.org/10.29298/rmcf.v6i30.205](https://doi.org/https://doi.org/10.29298/rmcf.v6i30.205).
+
+Alanís-Rodríguez,  E.,  Valdecantos-Dema,  A.,  Jiménez-Pérez,  J.,    Rubio-Camacho, E. A., Yerena-Yamallel, J. I., & __González-Tagle, M. A.__ (2015). Post-fire ecological restoration of a mixed Pinus-Quercus forest in Northeastern Mexico. Revista Chapingo Serie Ciencias Forestales y del Ambiente,  21(2), 157–170.  [https://doi.org/10.5154/r.rchscfa.2014.07.031](https://doi.org/10.5154/r.rchscfa.2014.07.031).
+
+Alanís-Rodríguez, Eduardo, Mora-Olivo, Arturo, Jiménez-Pérez, Javier, __González-Tagle, Marco Aurelio__, Yerena Yamallel, José Israel, Martínez-Ávalos, José Guadalupe, & González-Rodríguez, Laura Elena. (2015). Composición y diversidad del matorral desértico rosetófilo en dos tipos de suelo en el noreste de México. Acta botánica mexicana, (110), 105-117. [https://doi.org/10.21829/abm110.2015.187](https://doi.org/10.21829/abm110.2015.187
+).
+
 ## 2014
 
 Ávila Flores, D., __González, Tagle, M.A.__, Jiménez Pérez, J., Aguirre Calderón, O., Treviño Garza, E., & Vargas Larreta, B. (2014). Dendrocronopirología: análisis de la evidencia morfológica de incendios forestales. Revista Mexicana de Ciencias Forestales, 5(21), 136-147. [https://doi.org/https://doi.org/10.29298/rmcf.v5i21.363](https://doi.org/https://doi.org/10.29298/rmcf.v5i21.363).
+
+Alanís Rodríguez, E., Jiménez Pérez, J., __González Tagle, MA.__., Treviño Garza, E., Aguirre Calderón, O., Yerena Yamallel, J., & Mata Balderas, J. (2014). Efecto de los incendios en la estructura del sotobosque de un ecosistema templado. Revista Mexicana De Ciencias Forestales, 5(22), 74-85. [https://doi.org/https://doi.org/10.29298/rmcf.v5i22.351]( https://doi.org/https://doi.org/10.29298/rmcf.v5i22.351).
+
 
 ## 2013
 
