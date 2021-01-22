@@ -9,7 +9,7 @@ pagetitle: "Dr. Marco Aurelio González Tagle"
 <img src="images/Marco_Suiza.jpg" style="width:45%; border:5px solid; margin-right: 20px" align="left">
 
 # Research interest
-My interest is the documentation of forest fire regime in pine-oak forests using dendrochronological analysis, as well the relationship between fire and climate. Besides, I am head of the __Laboratorio de Dendrocronología__ and started a tree-ring research along the Cordilleran in northeast Mexico.
+My interest is the documentation of forest fire regime in pine-oak forests using dendrochronological analysis, as well the relationship between fire and climate. Besides, I am the lab lead of the __[Laboratorio de Dendrocronología](https://tree-ring.shinyapps.io/ATRmap/)__. Recently, I started a tree-ring research along the Cordilleran in northeast Mexico.
 
 
 I work at the [Faculty of Forestry Sciences](http://www.fcf.uanl.mx/) in the Department of Silviculture at the [Universidad Autonoma de Nuevo Leon](www.uanl.mx). 
@@ -19,7 +19,7 @@ I work at the [Faculty of Forestry Sciences](http://www.fcf.uanl.mx/) in the Dep
 
 My main three subject examinations  (Rigorosum) were: __Silviculture__, __Forest Growth__ and __Bioclimatologie__.
 
-I am an avid [R enthusiast](https://rpubs.com/mgtagle-73) and a [Mendeley advisor](https://www.mendeley.com/profiles/marco-aurelio-gonzalez-tagle/).
+I am member of the [Association for Tree-Ring Research](https://tree-ring.org/), an avid [R enthusiast](https://rpubs.com/mgtagle-73) and a [Mendeley advisor](https://www.mendeley.com/profiles/marco-aurelio-gonzalez-tagle/).
 
 My full CV is available [here](soon).
 
