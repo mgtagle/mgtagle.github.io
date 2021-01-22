@@ -5,6 +5,8 @@ navbar:
   left:
     - text: "Publications"
       href: Publication.html
+    - text: "Dendro Lab"
+      href: Dendrochronology.html    
 
     
       
