@@ -19,6 +19,8 @@ My dissertation research, under the advisement of Prof. Dr. Burkhard Müller-Usi
 
 ## 2021
 
+Ortiz-Mendoza, R., Aguirre-Calderón, O., Gómez-Cárdenas, M., Treviño-Garza, E., & __González-Tagle, M.A.__ (2021). Crecimiento de procedencias de _Pinus greggii_ Engelm. ex Parl. en suelos degradados de la Mixteca Alta, Oaxaca. Revista Mexicana De Ciencias Forestales, 12(64). [https://doi.org/https://doi.org/10.29298/rmcf.v12i64.710](https://cienciasforestales.inifap.gob.mx/index.php/v12n64-01).
+
 Villela-Suárez, J. M., Aguirre-Calderón, O. A., Treviño-Garza, E. J., __González-Tagle,  M.  A.__,    Yerena-Yamallel,  I.,  &  Vargas-Larreta,  B.  (2021).  Minimum  sample  size  for  fitting  compatible  taper-volume  functions  for  three  pine  species  in  Chihuahua.  Revista  Chapingo  Serie  Ciencias  Forestales  y  del  Ambiente,  27(1), 143-163. doi: [http:/dx.doi.org/10.5154/r.rchscfa.2020.04.031](http:/dx.doi.org/10.5154/r.rchscfa.2020.04.031)
 
 
@@ -63,7 +65,7 @@ Graciano-Ávila, Gabriel, Alanís-Rodríguez, Eduardo, Aguirre-Calderón, Óscar
 
 Cortés-Cabrera, H. E., Jurado, E., Pompa-García, M., Aguirre-Calderón, O. A., Pando-Moreno,  M., & __González-Tagle, M. A.__ (2018). Effect of fire and elevation on the regeneration of _Pinus hartwegii_ Lindl. in northeastern Mexico. Revista Chapingo Serie Ciencias Forestales y del Ambiente, 24(2), 197-205. [https://doi.org/10.5154/r.rchscfa.2017.09.057](https://doi.org/10.5154/r.rchscfa.2017.09.057).
 
-Silva-García, J., Aguirre Calderón, O., Alanís-Rodríguez, E., & __González-Tagle, M.A.__ (2018). Ecuaciones de volumen para Prosopis articulata S. Watson y Lysiloma divaricata (Jacq.) J. F. Macbr. en el noroeste de México. Revista Mexicana De Ciencias Forestales, 9(50). [https://doi.org/https://doi.org/10.29298/rmcf.v9i50.261](https://doi.org/https://doi.org/10.29298/rmcf.v9i50.261).
+Silva-García, J., Aguirre Calderón, O., Alanís-Rodríguez, E., & __González-Tagle, M.A.__ (2018). Ecuaciones de volumen para _Prosopis articulata_ S. Watson y _Lysiloma divaricata_ (Jacq.) J. F. Macbr. en el noroeste de México. Revista Mexicana De Ciencias Forestales, 9(50). [https://doi.org/https://doi.org/10.29298/rmcf.v9i50.261](https://doi.org/https://doi.org/10.29298/rmcf.v9i50.261).
 
 Cortés-Cabrera, H., Pérez-Domínguez, R., Flores, J., __González-Tagle, M.A.__, Cuéllar-Rodríguez, G., & Jurado, E. (2018). Germinación de dos especies del género Acacia a temperaturas elevadas simulando cambio climático. Revista Mexicana De Ciencias Forestales, 9(50). [https://doi.org/https://doi.org/10.29298/rmcf.v9i50.248](https://doi.org/https://doi.org/10.29298/rmcf.v9i50.248).
 
