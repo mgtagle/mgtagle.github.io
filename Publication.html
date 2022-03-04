@@ -13,13 +13,22 @@
 
 <title>Dr. Marco Aurelio González Tagle</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -36,11 +45,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -53,32 +57,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
@@ -90,10 +68,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -110,40 +84,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 64px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h2 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h3 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h4 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h5 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h6 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -171,7 +118,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -183,7 +130,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -194,10 +141,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -209,7 +169,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -295,31 +254,31 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="http://github.com/mgtagle">
-    <span class="fas fa-github fa-lg"></span>
+    <span class="fa fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/SilviculturaFCF">
-    <span class="fas fa-twitter fa-lg"></span>
+    <span class="fa fa-twitter fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="mailto:marco.gonzaleztg@uanl.edu.mx">
-    <span class="fas fa-address-card-o fa-lg"></span>
+    <span class="fa fa-address-card-o fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://join.skype.com/invite/rK5AoHwZucnI">
-    <span class="fas fa-skype fa-lg"></span>
+    <span class="fa fa-skype fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.uanl.mx/investigadores/marco-aurelio-gonzalez-tagle/">
-    <span class="fas fa-university fa-lg"></span>
+    <span class="fa fa-university fa-lg"></span>
      
   </a>
 </li>
@@ -328,7 +287,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -344,18 +303,22 @@ $(document).ready(function () {
 <p>My dissertation research, under the advisement of Prof. Dr. Burkhard Müller-Using and Prof. Dr. Klaus von Gadow at the Georg August Universität Göttingen, focused on forest fire history in Nuevo León, Mexico. A copy of my dissertation can be found at the <a href="https://d-nb.info/977068498/34">German National Library</a> or <a href="https://ediss.uni-goettingen.de/bitstream/handle/11858/00-1735-0000-0006-B169-5/gonzalez_tagle.pdf?sequence=1">E-diss Uni Göttingen</a>. </p>
 <p><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmgtagle.github.io%2FPublication.html&count_bg=%2379C83D&title_bg=%23555555&icon=opensuse.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a></p>
 <div id="section" class="section level2">
+<h2>2022</h2>
+</div>
+<div id="section-1" class="section level2">
 <h2>2021</h2>
+<p>Rosales-Mata, S., <strong>González-Tagle, M. A</strong>., &amp; Alanís-Rodríguez, E. (2021). Efecto de los incendios forestales en la diversidad estructural en bosques de Durango, México. Revista Latinoamericana De Recursos Naturales, 17(2), 49-54. Recuperado a partir de <a href="http://revista.itson.edu.mx/index.php/rlrn/article/view/304" class="uri">http://revista.itson.edu.mx/index.php/rlrn/article/view/304</a></p>
 <p>Ortiz-Mendoza, R., Aguirre-Calderón, O., Gómez-Cárdenas, M., Treviño-Garza, E., &amp; <strong>González-Tagle, M.A.</strong> (2021). Crecimiento de procedencias de <em>Pinus greggii</em> Engelm. ex Parl. en suelos degradados de la Mixteca Alta, Oaxaca. Revista Mexicana De Ciencias Forestales, 12(64). <a href="https://cienciasforestales.inifap.gob.mx/index.php/v12n64-01">https://doi.org/https://doi.org/10.29298/rmcf.v12i64.710</a>.</p>
 <p>Villela-Suárez, J. M., Aguirre-Calderón, O. A., Treviño-Garza, E. J., <strong>González-Tagle, M. A.</strong>, Yerena-Yamallel, I., &amp; Vargas-Larreta, B. (2021). Minimum sample size for fitting compatible taper-volume functions for three pine species in Chihuahua. Revista Chapingo Serie Ciencias Forestales y del Ambiente, 27(1), 143-163. doi: <a href="http:/dx.doi.org/10.5154/r.rchscfa.2020.04.031">http:/dx.doi.org/10.5154/r.rchscfa.2020.04.031</a></p>
 </div>
-<div id="section-1" class="section level2">
+<div id="section-2" class="section level2">
 <h2>2020</h2>
 <p><strong>González Tagle, M.A.</strong>, Ávila Flores, D., Himmelsbach, W. &amp; Cerano-Paredes, J, (2020). Fire history of conifer forest of Cerro el Potosí, Nuevo León, México. The Southwestern Naturalist 64(3-4), 203-209, (18 November 2020). <a href="https://doi.org/10.1894/0038-4909-64.3-4.203">https://doi.org/10.1894/0038-4909-64.3-4.203</a>.</p>
 <p>Alanís-Rodríguez, E., Rubio-Camacho, E. A., Mata-Balderas, J. M., Lozano-Cavazos, E. A., <strong>González-Tagle, M. A.</strong>, &amp; Amarán-Ruiz, M. F.. (2020). Tamaulipan thornscrub after fire: an analysis of the composition of species. Brazilian Journal of Biology, 80(4), 814-822. Epub November 25, 2019.<a href="https://www.scielo.br/pdf/bjb/v80n4/1519-6984-bjb-1519-6984221325.pdf">https://dx.doi.org/10.1590/1519-6984.221325</a>.</p>
 <p>Graciano-Ávila, Gabriel, Alanís-Rodríguez, Eduardo, Aguirre-Calderón, Oscar A., <strong>González-Tagle, Marco A.</strong>, Treviño-Garza, Eduardo J., Mora-Olivo, Arturo, &amp; Corral-Rivas, José J.. (2020). Cambios estructurales de la vegetación arbórea en un bosque templado de Durango, México. Acta Botánica Mexicana, (127). <a href="https://abm.ojs.inecol.mx/index.php/abm/article/view/1522">https://doi.org/10.21829/abm127.2020.1522</a>.</p>
 <p>Graciano-Ávila, Gabriel, Alanís-Rodríguez, Eduardo, Rubio-Camacho, Ernesto A., Valdecantos-Dema, Alejandro, Aguirre-Calderón, Oscar A., <strong>González-Tagle, Marco A.</strong>, Treviño-Garza, Eduardo Javier, Corral-Rivas, José Javier, &amp; Mora-Olivo, Arturo. (2020). Composición y estructura espacial de cinco asociaciones de bosques de <em>Pinus durangensis</em>. Madera y bosques, 26(2), e2621933. Epub 03 de julio de 2020. <a href="https://myb.ojs.inecol.mx/index.php/myb/article/view/e2621933/2097">https://doi.org/10.21829/myb.2020.2621933</a>.</p>
 </div>
-<div id="section-2" class="section level2">
+<div id="section-3" class="section level2">
 <h2>2019</h2>
 <p>García-Espinoza, G. G., Aguirre-Calderón, O. A., Quiñonez-Barraza, G., Alanís-Rodríguez, E., <strong>González-Tagle, M. A.</strong>, &amp; García-Magaña, J. J. (2019). Global-local and fixed-random parameters to model dominant height growth of <em>Pinus pseudostrobus</em> Lindley. Revista Chapingo Serie Ciencias Forestales y del Ambiente, 25(1), 141-156. <a href="https://revistas.chapingo.mx/forestales/?section=articles&amp;subsec=issues&amp;numero=266&amp;articulo=2545">doi: 10.5154/r.rchscfa.2018.06.047</a>.</p>
 <p>González-Cásares M, Pompa-García M, Venegas-González A, Domínguez-Calleros P, Hernández-Díaz J, Carrillo-Parra A, <strong>González-Tagle M. A.</strong> 2019. Hydroclimatic variations reveal differences in carbon capture in two sympatric conifers in northern Mexico. PeerJ 7:e7085 <a href="https://peerj.com/articles/7085/">https://doi.org/10.7717/peerj.7085</a>.</p>
@@ -366,7 +329,7 @@ $(document).ready(function () {
 <p>Dávila-Lara, Marco A., Aguirre-Calderón, Óscar A., Jurado-Ybarra, Enrique, Treviño-Garza, Eduardo, <strong>González-Tagle, Marco A.</strong>, &amp; Trincado, Guillermo. (2019). Estructura y diversidad de especies arbóreas en bosques templados de San Luis Potosí, México. Ecosistemas y recursos agropecuarios, 6(18), 399-409. Epub 20 de febrero de 2020. <a href="http://www.scielo.org.mx/pdf/era/v6n18/2007-901X-era-6-18-399.pdf">https://doi.org/10.19136/era.a6n18.2112</a>.</p>
 <p>Guzmán Santiago, J., Aguirre Calderón, O., <strong>González Tagle, M.A.</strong>, Treviño-Garza, E., Jiménez-Pérez, J., Vargas Larreta, B., &amp; De los Santos Posadas, H. (2019). Relación altura-diámetro para Abies religiosa Kunth Schltdl. &amp; Cham. en el centro y sur de México. Revista Mexicana De Ciencias Forestales, 10(52). <a href="https://doi.org/https://doi.org/10.29298/rmcf.v10i52.483">https://doi.org/https://doi.org/10.29298/rmcf.v10i52.483</a>.</p>
 </div>
-<div id="section-3" class="section level2">
+<div id="section-4" class="section level2">
 <h2>2018</h2>
 <p>Acevedo Benítez, F., <strong>González Tagle, M.A.</strong>, Himmelsbach, W., Aguirre Calderón, Óscar, &amp; Jiménez Pérez, J. (2018). Diagrama de manejo de densidad para el género Pinus en el ejido Pueblo Nuevo, Durango. Revista Mexicana De Ciencias Forestales, 9(50). <a href="https://doi.org/https://doi.org/10.29298/rmcf.v9i50.262">https://doi.org/https://doi.org/10.29298/rmcf.v9i50.262</a>.</p>
 <p>Santos Sánchez, O., <strong>González Tagle, M.A.</strong>, &amp; López Aguillón, R. (2018). Producción de semilla y potencial biológico de tres especies de Pinus en Durango. Revista Mexicana De Ciencias Forestales, 9(50), 538:549. <a href="https://doi.org/https://doi.org/10.29298/rmcf.v9i50.264">https://doi.org/https://doi.org/10.29298/rmcf.v9i50.264</a>.</p>
@@ -378,7 +341,7 @@ $(document).ready(function () {
 <p>González Cubas, R., Treviño-Garza, E., Duque-Montoya, Álvaro, <strong>González Tagle, M.A</strong>, Gómez-Cárdenas, M., &amp; Bautista-Cruz, A. (2018). Diversidad y estructura arbórea en un bosque de <em>Abies vejarii</em> Martínez en el sur del estado de Nuevo León. Revista Mexicana De Ciencias Forestales, 9(45). <a href="https://doi.org/https://doi.org/10.29298/rmcf.v9i45.142">https://doi.org/https://doi.org/10.29298/rmcf.v9i45.142</a>.</p>
 <p>Graciano-Ávila, G.; Alanís-Rodríguez, E., Aguirre-Calderón, O.A., Rubio-Camacho, E. &amp; <strong>González-Tagle, M.A.</strong>(2018) Estructura y diversidad postincendio en un área del matorral espinoso tamaulipeco. Polibotánica, 45, 89:100. <a href="http://dx.doi.org/10.18387/polibotanica.45.7">http://dx.doi.org/10.18387/polibotanica.45.7</a>.</p>
 </div>
-<div id="section-4" class="section level2">
+<div id="section-5" class="section level2">
 <h2>2017</h2>
 <p>Rubio-Camacho, E.A., <strong>González-Tagle, M.A.</strong>, Himmelsbach,W., Ávila-Flores, D.A., Alanís-Rodríguez, E., &amp; Jiménez-Pérez, J. (2017). Patrones de distribución espacial del arbolado en un bosque mixto de pino-encino del noreste de México. Revista Mexicana de Biodiversidad. Vol. 88:113-121. <a href="http://dx.doi.org/10.1016/j.rmb.2017.01.015">http://dx.doi.org/10.1016/j.rmb.2017.01.015</a>.</p>
 <p>Rubio Camacho, E., <strong>González Tagl, M.A.</strong>, Benavides Solorio, J., Chávez Durán, A., &amp; Xelhuantzi Carmona, J. (2017). Relación entre necromasa, composición de especies leñosas y posibles implicaciones del cambio climático en bosques templados. Revista Mexicana De Ciencias Agícolas, (13), 2601-2614. <a href="https://doi.org/https://doi.org/10.29312/remexca.v0i13.486">https://doi.org/https://doi.org/10.29312/remexca.v0i13.486</a>.</p>
@@ -386,19 +349,19 @@ $(document).ready(function () {
 <p>Graciano-Ávila, G.; Alanís-Rodríguez, E., Aguirre-Calderón, O.A., <strong>González-Tagle, M.A.</strong>, Treviño Garza, E., Mora Olivo, A. (2017). Structural characterization of the trees of a forest ejido of northwest Mexico. Madera y Bosques, vol. 23(3): 137-146. <a href="https://doi.org/10.21829/myb.2017.2331480">https://doi.org/10.21829/myb.2017.2331480</a>.</p>
 <p>Pequeño-Ledezma, M. A., Alanís-Rodríguez, E., Jiménez-Pérez, J., Aguirre-Calderón, O. A., <strong>González-Tagle, M. A.</strong> &amp; Molina-Guerra, V. M. (2017). Análisis estructural de dos áreas del matorral espinoso tamaulipeco del noreste de México. Madera y Bosques, 23(1), 121-132. <a href="https://doi.org/10.21829/myb.2017.2311125">https://doi.org/10.21829/myb.2017.2311125</a>.</p>
 </div>
-<div id="section-5" class="section level2">
+<div id="section-6" class="section level2">
 <h2>2016</h2>
 <p>Sígala Rodríguez, José Á, <strong>González Tagle, Marco A</strong>, Prieto Ruíz, José Á, Basave Villalobos, Erickson, &amp; Jiménez Pérez, Javier. (2016). Allometric relations for predicting biomass in <em>Pinus pseudostrobus</em> seedlings grown under different production systems at nursery. Bosque (Valdivia), 37(2), 369-378. <a href="https://dx.doi.org/10.4067/S0717-92002016000200015">https://dx.doi.org/10.4067/S0717-92002016000200015</a>.</p>
 <p>Rubio Camacho, E., <strong>González Tagle, M.A.</strong>, Benavides Solorio, J., Chávez Durán, A., &amp; Xelhuantzi Carmona, J. (2017). Relación entre necromasa,composición de especies leñosas y posibles implicaciones del cambio climático en bosques templados. Revista Mexicana De Ciencias Agrícolas, (13), 2601-2614. <a href="https://doi.org/10.29312/remexca.v0i13.486">https://doi.org/10.29312/remexca.v0i13.486</a>.</p>
 </div>
-<div id="section-6" class="section level2">
+<div id="section-7" class="section level2">
 <h2>2015</h2>
 <p>Rubio-Camacho, E. A., <strong>González-Tagle, M. A.</strong>, Alanís-Rodríguez, E., Chávez-Durán, Á. A., &amp; Aguirre-Calderón, O. A. (2015). Analysis of the structure and diameter distribution in temperate forests under the perspective of the potential fire regime. Revista Chapingo Serie Ciencias Forestales y del Ambiente, 21(3), 281-294. <a href="https://doi.org/10.5154/r.rchscfa.2014.10.053">https://doi.org/10.5154/r.rchscfa.2014.10.053</a>.</p>
 <p>Sígala Rodríguez, J., <strong>González Tagle, M.A</strong>, &amp; Prieto Ruiz, J. (2015). Supervivencia en plantaciones de <em>Pinus pseudostrobus</em> Lindl. en función del sistema de producción y preacondicionamiento en vivero. Revista Mexicana De Ciencias Forestales, 6(30), 20-31. <a href="https://doi.org/https://doi.org/10.29298/rmcf.v6i30.205">https://doi.org/https://doi.org/10.29298/rmcf.v6i30.205</a>.</p>
 <p>Alanís-Rodríguez, E., Valdecantos-Dema, A., Jiménez-Pérez, J., Rubio-Camacho, E. A., Yerena-Yamallel, J. I., &amp; <strong>González-Tagle, M. A.</strong> (2015). Post-fire ecological restoration of a mixed Pinus-Quercus forest in Northeastern Mexico. Revista Chapingo Serie Ciencias Forestales y del Ambiente, 21(2), 157–170. <a href="https://doi.org/10.5154/r.rchscfa.2014.07.031">https://doi.org/10.5154/r.rchscfa.2014.07.031</a>.</p>
 <p>Alanís-Rodríguez, Eduardo, Mora-Olivo, Arturo, Jiménez-Pérez, Javier, <strong>González-Tagle, Marco Aurelio</strong>, Yerena Yamallel, José Israel, Martínez-Ávalos, José Guadalupe, &amp; González-Rodríguez, Laura Elena. (2015). Composición y diversidad del matorral desértico rosetófilo en dos tipos de suelo en el noreste de México. Acta botánica mexicana, (110), 105-117. <a href="https://doi.org/10.21829/abm110.2015.187">https://doi.org/10.21829/abm110.2015.187</a>.</p>
 </div>
-<div id="section-7" class="section level2">
+<div id="section-8" class="section level2">
 <h2>2014</h2>
 <p>Ávila Flores, D., <strong>González, Tagle, M.A.</strong>, Jiménez Pérez, J., Aguirre Calderón, O., Treviño Garza, E., &amp; Vargas Larreta, B. (2014). Dendrocronopirología: análisis de la evidencia morfológica de incendios forestales. Revista Mexicana de Ciencias Forestales, 5(21), 136-147. <a href="https://doi.org/https://doi.org/10.29298/rmcf.v5i21.363">https://doi.org/https://doi.org/10.29298/rmcf.v5i21.363</a>.</p>
 <p>Ávila Flores, D., <strong>González, Tagle, M.A.</strong>, Jiménez Pérez, J., Aguirre Calderón, O., Treviño Garza, E., Vargas Larreta, B. &amp; Alanís Rodríguez, E.(2014). Effect of the severity of fire in the structure characteristics of conifer forest stands. Revista Chapingo Serie Ciencias Forestales y del Ambiente, 20(1), 33–45. <a href="https://doi.org/10.5154/r.rchscfa.2013.01.005">https://doi.org/10.5154/r.rchscfa.2013.01.005</a>.</p>
@@ -407,25 +370,25 @@ $(document).ready(function () {
 <p>Aguirre-Salado, C.A., Treviño-Garza, E.J., Aguirre-Calderón, O.A., Jiménez Pérez, J., <strong>González, Tagle, M.A.</strong>, Valdéz-Lazalde, J.R., Sánchez-Díaz, G., Reija Haapanen, Aguirre-Salado, A.I., &amp; Miranda-Aragón, L. (2014) Mapping aboveground biomass by integrating geospatial and forest inventory data through a k-nearest neighbor strategy in North Central Mexico. J. Arid Land 6, 80–96. <a href="https://doi.org/10.1007/s40333-013-0191-x">https://doi.org/10.1007/s40333-013-0191-x</a>.</p>
 <p>Yerena Yamallel, J.I., Jiménez Pérez, J. , Alanís Rodríguez, E., Aguirre Calderón, O.A., González Tagle, M.A., Treviño Garza, E.J. (2014). Dynamics of carbon sequestration in abandoned grasslands of northeastern Mexico. Tropical and Subtropical Agroecosystems, 17(2014): 113 -121. <a href="https://www.revista.ccba.uady.mx/ojs/index.php/TSA/article/view/1807">https://www.revista.ccba.uady.mx/ojs/index.php/TSA/article/view/1807</a></p>
 </div>
-<div id="section-8" class="section level2">
+<div id="section-9" class="section level2">
 <h2>2013</h2>
 <p>Cárdenas Tristán, Abraham, &amp; Treviño Garza, Eduardo Javier, &amp; Aguirre Calderón, Oscar Alberto, &amp; Jiménez Pérez, Javier, &amp; <strong>González Tagle, Marco Aurelio</strong>, &amp; Némiga, Xanat Antonio (2013). Spatial technologies to evaluate vectorial samples quality in maps production. Investigaciones Geográficas (Mx), (80),111-128. ISSN: 0188-4611. <a href="https://www.redalyc.org/articulo.oa?id=569/56926151009">Download</a>.</p>
 </div>
-<div id="section-9" class="section level2">
+<div id="section-10" class="section level2">
 <h2>2012</h2>
 <p>Alanís-Rodríguez, Eduardo, Jiménez-Pérez, Javier, Valdecantos-Dema, Alejandro, <strong>González-Tagle, Marco A.</strong>, Aguirre-Calderón, Óscar A., &amp; Treviño-Garza, Eduardo J.. (2012). Composición y diversidad de la regeneración natural en comunidades de Pinus-Quercus sometidas a una alta recurrencia de incendios en el noreste de México. Revista mexicana de biodiversidad, 83(4), 1208-1214. <a href="http://www.scielo.org.mx/pdf/rmbiodiv/v83n4/v83n4a26.pdf">https://doi.org/10.7550/rmb.29708</a>.</p>
 <p>Jiménez Pérez, J., Alanís Rodríguez, E., Ruiz González, J. L., <strong>González Tagle, M. A.</strong>, Yerena Yamallel, J. I., &amp; Alanís Flores, G. J. (2012). Diversidad de la regeneración leñosa del matorral espinoso tamaulipeco con historial agrícola en el noreste de méxico. Diversidad De La Regeneración Leñosa Del Matorral Espinoso Tamaulipeco Con Historial Agrícola En El Noreste De México. Ciencia UANL, Vol. 15(58), 66-71. <a href="https://dialnet.unirioja.es/descarga/articulo/3892528.pdf">Download</a></p>
 </div>
-<div id="section-10" class="section level2">
+<div id="section-11" class="section level2">
 <h2>2009</h2>
 <p>Jiménez-Pérez, Javier, Alanís-Rodríguez, Eduardo, Aguirre-Calderón, Oscar, Pando-Moreno, Marisela, &amp; <strong>González-Tagle, M.A.</strong> (2009). Análisis sobre el efecto del uso del suelo en la diversidad estructural del matorral espinoso tamaulipeco. Madera y bosques, 15(3), 5-20. <a href="http://www.scielo.org.mx/pdf/mb/v15n3/v15n3a1.pdf">Download</a>.</p>
 </div>
-<div id="section-11" class="section level2">
+<div id="section-12" class="section level2">
 <h2>2008</h2>
 <p><strong>González Tagle, M. A.</strong>, Schwendenmann, L., Jiménez Pérez, J., &amp; Schulz, R. (2008). Forest structure and woody plant species composition along a fire chronosequence in mixed pine–oak forest in the Sierra Madre Oriental, Northeast Mexico. Forest Ecology and Management, 256(1–2), 161–167. <a href="https://doi.org/10.1016/j.foreco.2008.04.021">https://doi.org/10.1016/j.foreco.2008.04.021</a>.</p>
 <p>Alanís-Rodríguez, E., Jiménez-Pérez, J., Espinoza-Vizcarra, D., Jurado-Ybarra, E., Aguirre-Calderón, Oscar A., &amp; <strong>González-Tagle, Marco A.</strong> (2008). Evaluación del estrato arbóreo en un área restaurada post-incendio en el parque ecológico Chipinque, México. Revista Chapingo serie ciencias forestales y del ambiente, 14(2), 113-118. <a href="http://www.scielo.org.mx/pdf/rcscfa/v14n2/v14n2a6.pdf">Download</a>.</p>
 </div>
-<div id="section-12" class="section level2">
+<div id="section-13" class="section level2">
 <h2>2007</h2>
 <p><strong>González Tagle, M. A.</strong>, Schwendenmann, L., Jiménez Pérez, J., &amp; Himmelsbach, W. (2007). Reconstrucción del historial de incendios y estructura forestal en bosques mixtos de pino-encino en la Sierra Madre Oriental Reconstruction of fire history and forest structure in mixed pine-oak forest in the Sierra Madre Oriental. Madera y Bosques, 13(02), 51–63. <a href="https://dialnet.unirioja.es/descarga/articulo/6618115.pdf">Download</a>.</p>
 <p><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmgtagle.github.io%2FPublication.html&count_bg=%2379C83D&title_bg=%23555555&icon=opensuse.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a></p>
@@ -459,7 +422,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
