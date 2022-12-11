@@ -17,6 +17,12 @@ My dissertation research, under the advisement of Prof. Dr. Burkhard Müller-Usi
 
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmgtagle.github.io%2FPublication.html&count_bg=%2379C83D&title_bg=%23555555&icon=opensuse.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 
+Actualización: `r format(Sys.Date(), "%d.%m.%Y")`
+
+## 2023
+
+__González-Tagle,  M.  A.__,  Cerano-Paredes,  J.,  Himmelsbach,  W.,  Alanís-Rodríguez,  E.,  &  Colazo-Ayala  A.  A.  (2023)  Fire  records  based  on  dendrochronological  techniques  for  a  coniferous  forest  in  the  southeastern  region  of  Jalisco,  Mexico.  Revista  Chapingo  Serie  Ciencias  Forestales  y  del  Ambiente,  29(1),  00–00. [doi: 10.5154/r.rchscfa.2022.03.018](https://revistas.chapingo.mx/forestales/?section=articles&subsec=issues&numero=305&articulo=2808)
+
 ## 2022
 
 Flores-Morales, E.A., Aguirre-Calderón, O.A., Treviño-Garza, E.J., __González-Tagle, M.A.__, Alanís-Rodríguez, E., Angeles-Pérez, G., & Huizar-Amezcua, F.. (2022). Diversidad y estructura arbórea de un bosque templado bajo manejo en el municipio de pueblo nuevo, Durango, México. Polibotánica, (54), 11-26. Epub 12 de septiembre de 2022. [https://doi.org/10.18387/polibotanica.54.2](https://doi.org/10.18387/polibotanica.54.2)
